@@ -1,0 +1,171 @@
+/* CSS For Logo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 12px 10px;
+}
+
+.logo {
+    width: 7%;
+    height: 7%;
+    margin-right: 20px;
+}
+
+.first-nav:hover {
+    color: #222 !important;
+}
+
+.second-nav:hover {
+    color: #0d6efd !important;
+}
+
+/* Home section start  */
+
+.home-heading {
+    padding: 25px 0 15px 0 ;
+}
+
+.bg-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url('./products/bg-image.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.explore-btn {
+    background: #fff;
+    text-decoration: none;
+    color: #000;
+    padding: 12px 32px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    display: inline-block;
+    margin-top: 15px;
+    transition: .3s linear;
+}
+
+.explore-btn:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    box-shadow: 5px 5px 15px rgb(150, 139, 253),
+                -5px -5px 15px rgb(148, 182, 255);
+}
+
+.heading-text {
+    font-size: 3rem;
+}
+
+.product-box {
+    padding: 50px 30px;
+    gap: 80px;
+}
+
+.side-bar:hover {
+    background: #222 !important;
+    color: #fff !important;
+}
+
+.card {
+    transition: .3s linear;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 2px 2px 10px rgba(0,0,0,.1);
+    -webkit-box-shadow: 2px 2px 10px rgba(0,0,0,.1);
+    -moz-box-shadow: 2px 2px 10px rgba(0,0,0,.1);
+}
+
+.card-body {
+    padding: 16px 8px !important;
+    position: relative;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+/* CSS For admin Page */
+
+.admin-image {
+    width: 80px;
+    object-fit: cover;
+}
+
+.button-text {
+    font-size: .9em;
+}
+
+/* CSS For Cart Page  */
+
+.cart-image {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.body-row td {
+    vertical-align: middle;
+}
+
+.body-row .checkbox {
+    accent-color: #f00;
+    width: 17px;
+    height: 17px;
+}
+
+/* Profile Page CSS */
+
+.user-image {
+    width: 150px;
+    height: 150px;
+    margin: 15px 0 15px 0;
+    object-fit: cover;
+}
+
+/*Confirm Payment Page  */
+
+.payment-body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* View Product Page */
+.view-image {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+}
+
+/* Edit Category */
+
+.btn-margin {
+    margin-top: 23px !important;
+}
+
+/* List of users Page */
+
+.list-user-image {
+    width: 50px;
+    height: 50px;
+}
